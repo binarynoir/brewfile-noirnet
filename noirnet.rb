@@ -1,8 +1,8 @@
 class Noirnet < Formula
   desc "Monitors to see if the device has internet access and send notifications"
   homepage "https://github.com/binarynoir/noirnet"
-  url "https://github.com/binarynoir/noirnet/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "e2962c01e04ece9fa96488791a3a1b1c768d24e9c22aebf6d004c1e011f31b53"
+  url "https://github.com/binarynoir/noirnet/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "05805c942aeca7d2817d49f7130a8e287fe898d0add6ae855c2132e4f84e474b"
 
   depends_on "bash"
 

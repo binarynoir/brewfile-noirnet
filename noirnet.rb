@@ -4,7 +4,7 @@ class Noirnet < Formula
   url ""
   sha256 ""
 
-  depends_on "bash" "coreutils"
+  depends_on "bash"
 
   def install
     bin.install "noirnet"

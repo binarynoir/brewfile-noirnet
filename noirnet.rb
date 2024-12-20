@@ -4,7 +4,8 @@ class Noirnet < Formula
   url "https://github.com/binarynoir/noirnet/archive/refs/tags/v1.4.0.tar.gz"
   sha256 "71be5ccde90358c16d8d099c9ecca82de247c88b0de76397f2add0783f7e45dd"
 
-  depends_on "bash" "coreutils"
+  depends_on "bash"
+  depends_on "coreutils"
 
   def install
     bin.install "noirnet"
